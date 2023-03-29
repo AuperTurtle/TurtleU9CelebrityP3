@@ -3,7 +3,7 @@
  * @author cody.henrichsen
  * @version 1.4 17/09/2018
  */
-public class Celebrity {
+public class 	Celebrity {
 	/**
 	 * The clue to determine the celebrity
 	 */
