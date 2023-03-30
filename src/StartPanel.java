@@ -241,4 +241,5 @@ public class StartPanel extends JPanel implements ActionListener {
     controller.addCelebrity(answer, clue, type);
     startButton.setEnabled(true);
   }
+
 }

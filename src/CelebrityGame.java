@@ -133,4 +133,12 @@ public class CelebrityGame {
 	public String sendAnswer() {
 		return null; // stub
 	}
+
+	public void resetGame() {
+		gameWindow.replaceScreen("START");
+		celebGameList.clear();
+		gameWindow.dispose();
+		gameWindow = new CelebrityFrame(this);
+		gameCelebrity = null;
+	}
 }
